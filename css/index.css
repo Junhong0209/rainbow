@@ -8,6 +8,7 @@ html {
 body {
   background-color: #d4d4d4;
   max-width: 768px;
+  width: 100%;
   min-height: 100vh;
   height: fit-content;
   margin: auto;
@@ -34,9 +35,6 @@ body {
 
 .image-box {
   width: calc(100% - 30px);
-
-  height: 100px;
-  background-color: beige;
   margin: 0px 15px;
 }
 
@@ -48,4 +46,17 @@ body {
 .test {
   width: 100vw;
   height: 100px;
+}
+
+.link {
+  display: block;
+  width: 550px;
+  height: 20px;
+  background-color: transparent;
+
+  position: relative;
+  /* bottom: -40px; */
+  /* top: 15905px; */
+  /* left: 385px;
+  bottom: 0px; */
 }

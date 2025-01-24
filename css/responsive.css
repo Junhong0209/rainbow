@@ -1,5 +1,30 @@
 @media (max-width: 768px) {
+  .link {
+    left: 75px;
+    bottom: 90px;
+  }
 }
 
 @media (max-width: 425px) {
+  .link {
+    width: 300px;
+    left: 40px;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .link {
+    width: 260px;
+    left: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .link {
+    width: 220px;
+    height: 10px;
+    bottom: 37px;
+    left: 30px;
+  }
 }
